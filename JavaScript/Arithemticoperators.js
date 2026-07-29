@@ -1,8 +1,9 @@
 
 
-let num1 = 4
-let num2 = 2
+let num = 4
 
+//num = num + 1
+++num // pre increment
+num++ // post increment
 
-let result = num1 - num2
-console.log(result);
+console.log(num);
