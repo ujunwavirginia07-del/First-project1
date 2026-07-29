@@ -2,8 +2,6 @@
 
 let num = 4
 
-//num = num + 1
-++num // pre increment
-num++ // post increment
+let x = num++       //post increment
 
-console.log(num);
+console.log(x, num);
