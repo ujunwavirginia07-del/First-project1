@@ -1,7 +1,2 @@
-
-let firstName = "Ujunwa"
-let lastName = "Star"
-
-let user = firstName + " " + lastName
-
-console.log(user);
+let bool = 5 < 6
+console.log( typeof bool);
