@@ -1,7 +1,6 @@
 
 
 let num = 4
+let results = num * num * num
 
-let x = num++       //post increment
-
-console.log(x, num);
+console.log(results);
