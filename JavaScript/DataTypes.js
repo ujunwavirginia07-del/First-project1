@@ -1,6 +1,7 @@
-let data = 8                  //number
-let user = "Ujunwa"           //string
 
-let num1 = 7.8
-console.log(typeof user);
+let firstName = "Ujunwa"
+let lastName = "Star"
 
+let user = firstName + " " + lastName
+
+console.log(user);
