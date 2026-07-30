@@ -1,7 +1,7 @@
 
-let x = 6
-let y = 6
+let x = 7, y = 2, z = 5
 
-let data = x >= y
+let result = x > y || x < z 
+let n = !result
 
-console.log(data);
+console.log(result , n);
