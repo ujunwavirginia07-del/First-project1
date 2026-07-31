@@ -1,12 +1,11 @@
 
-// repeat this statement 5 times 
+//repeat this statment 5 times
 // initialize, condition, increment
 
+let i = 1;
 
-let i = 10;
-
-do
+for(;i<=5;)
 {
-     console.log("Hi", i);
-     i++;
-}while(i<=5)
+    console.log("Hi", i)
+    i++;
+}
