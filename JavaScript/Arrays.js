@@ -1,8 +1,6 @@
-let nums = [];
+let a = 5;
+let b = 6;
 
-nums[0] = 5;
-nums[99] = 9;
+[a,b] = [b,a]
 
-for(let n of nums){
-    console.log(n);
-}
+console.log(a,b);
