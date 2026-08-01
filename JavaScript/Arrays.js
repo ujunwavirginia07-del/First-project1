@@ -1,7 +1,8 @@
-let data = [5,7,8,9,4];
-console.log(data.splice(2,2, 11, 15));
+let nums = [];
 
+nums[0] = 5;
+nums[99] = 9;
 
-
-
-console.log(data);
+for(let n of nums){
+    console.log(n);
+}
