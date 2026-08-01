@@ -1,6 +1,5 @@
-let a = 5;
-let b = 6;
+let words = "My Name is Navin Raddy Telusko Vlog".split(` `);
 
-[a,b] = [b,a]
+let [a,b,, ...d] = words;
 
-console.log(a,b);
+console.log(d);
