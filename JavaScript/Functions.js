@@ -16,11 +16,18 @@ let laptop1 = {
     ram: 16,
     brand: `HP`,
 
-    getconfig: function(){
+    compare: function(other){
+        if(this.cpu > other.cpu)
+           console.log(this);
+        else
+           console.log(other);
+    },
+    
+    getConfig: function(){
 
         console.log(this.cpu);
-
     }
 }
 
-laptop2.getconfig();
+
+laptop1.compare(laptop2);
