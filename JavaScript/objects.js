@@ -1,15 +1,14 @@
 
-
 let alien = {
     name: 'Ujunwa',
     tech: 'JS',
     laptop : {
         cpu : '17',
         ram : 4,
-        brand1 : 'Asus'
+        brand : 'Asus'
     }
 }
 
-//console.log(alien.laptop.brand.lenght);
+delete alien.tech
 
-console.log(alien.laptop.brand1.length);
+console.log(alien);
