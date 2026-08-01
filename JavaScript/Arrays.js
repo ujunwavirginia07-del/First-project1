@@ -1,8 +1,7 @@
-let data = ['Ujnuwa', 5, {tech:'JS'}, function(){console.log("Hello World"); }];
+let data = [5,7,8,9,4];
+console.log(data.splice(2,2, 11, 15));
 
 
 
 
 console.log(data);
-
-data[3]();
