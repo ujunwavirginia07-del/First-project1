@@ -1,8 +1,9 @@
-function greet(user)
+function add(num1, num2, num3)
 {
-    return `Hello ${user}!!`
+    console.log(num1,num2, num3);
+    return num1 + num2 + num3;
 }
 
-let user = `Ujunwa`;
-let str = greet(user);
-console.log(str);
+
+let result = add(5,6,5);
+console.log(result);
