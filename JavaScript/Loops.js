@@ -1,11 +1,12 @@
 
-//repeat this statment 5 times
-// initialize, condition, increment
+//     if(i%3===0)
+//           console.log(i);
+// }
 
-let i = 1;
+let num = 564782
 
-for(;i<=5;)
+while(num>0)
 {
-    console.log("Hi", i)
-    i++;
+    console.log(num%10);
+    num = parseInt(num / 10)
 }
