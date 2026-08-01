@@ -9,6 +9,7 @@ let alien = {
     }
 }
 
-delete alien.tech
-
-console.log(alien);
+for(let key in alien)
+{
+    console.log(key, alien[key]);
+}
