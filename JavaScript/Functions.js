@@ -1,33 +1,18 @@
 
-let laptop2 = {
-    cpu: `i7`,
-    ram: 16,
-    brand: `Apple`,
+function Alien(name, tech){
+    this.name = name;
+    this.tech = tech;
 
-    getconfig: function(){
-
-        console.log(this.cpu);
+    this.work = function(){
+        console.log("Solving bugs from 12 hours");
     }
 }
 
+let alien1 = new Alien('Ujunwa', 'JS');
+let alien2 = new Alien('Kiran', 'Java');
 
-let laptop1 = {
-    cpu: `i9`,
-    ram: 16,
-    brand: `HP`,
+alien1.tech = 'Blockchain';
 
-    compare: function(other){
-        if(this.cpu > other.cpu)
-           console.log(this);
-        else
-           console.log(other);
-    },
-    
-    getConfig: function(){
+console.log(alien1);
 
-        console.log(this.cpu);
-    }
-}
-
-
-laptop1.compare(laptop2);
+alien1.work();
