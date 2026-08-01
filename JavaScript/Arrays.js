@@ -1,5 +1,8 @@
-let values = [5,7,8];
+let data = ['Ujnuwa', 5, {tech:'JS'}, function(){console.log("Hello World"); }];
 
 
 
-console.log(values[2]);
+
+console.log(data);
+
+data[3]();
