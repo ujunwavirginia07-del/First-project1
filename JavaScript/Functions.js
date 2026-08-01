@@ -1,9 +1,26 @@
 
+let laptop2 = {
+    cpu: `i7`,
+    ram: 16,
+    brand: `Apple`,
 
- let add = (num1,num2) => num1 + num2;
-         
+    getconfig: function(){
 
- let result = add(5,6)
+        console.log(this.cpu);
+    }
+}
 
- console.log(result);
 
+let laptop1 = {
+    cpu: `i9`,
+    ram: 16,
+    brand: `HP`,
+
+    getconfig: function(){
+
+        console.log(this.cpu);
+
+    }
+}
+
+laptop2.getconfig();
