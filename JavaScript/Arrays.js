@@ -1,5 +1,5 @@
-let words = "My Name is Navin Raddy Telusko Vlog".split(` `);
+let nums = [42,51,24,98,65,12];
 
-let [a,b,, ...d] = words;
-
-console.log(d);
+nums.forEach((n,i,nums) => {
+    console.log(n, i, nums);
+});
