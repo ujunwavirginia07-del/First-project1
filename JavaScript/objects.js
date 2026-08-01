@@ -1,9 +1,15 @@
-let input = 'name'
+
 
 let alien = {
     name: 'Ujunwa',
     tech: 'JS',
-    'work exp': 4
+    laptop : {
+        cpu : '17',
+        ram : 4,
+        brand1 : 'Asus'
+    }
 }
 
-console.log(alien[input]);
+//console.log(alien.laptop.brand.lenght);
+
+console.log(alien.laptop.brand1.length);
