@@ -1,10 +1,12 @@
-let num = 1;
-function show(){
-    console.log("Hi ", num);
-    num++;
-    if(num<=11299)
-        show();
+function fact(n){
+
+    if(n==0)
+        return 1;
+    else
+        return n * fact(n-1);
 }
 
+let num = 4;
+let result = fact(num);
 
-show();
+console.log(result);
